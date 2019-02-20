@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package>
+  <metadata>
+    <id>RedSheeps.Input</id>
+    <version>0.1.0</version>
+    <title>RedSheeps.Input</title>
+    <authors>RedSheeps</authors>
+    <owners>RedSheeps</owners>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <license type="expression">MIT</license>
+    <projectUrl>https://github.com/RedSheeps/RedSheeps.Input</projectUrl>
+    <description>Provide the implementation class of System.Windows.Input.ICommand.</description>
+    <releaseNotes>https://github.com/RedSheeps/RedSheeps.Input/releases</releaseNotes>
+    <copyright>Copyright 2018 RedSheeps</copyright>
+    <tags>command wpf uwp xamarin</tags>
+  </metadata>
+  <files>
+    <file src="Source\RedSheeps.Input.Net45\bin\Release\net45\RedSheeps.Input.dll" target="lib\net45" />
+    <file src="Source\RedSheeps.Input\bin\Release\netstandard1.0\RedSheeps.Input.dll" target="lib\netstandard1.0" />
+  </files>
+</package>
