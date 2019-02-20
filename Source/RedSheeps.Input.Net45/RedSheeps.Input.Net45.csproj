@@ -2,7 +2,13 @@
 
   <PropertyGroup>
     <TargetFramework>net45</TargetFramework>
+    <AssemblyName>RedSheeps.Input</AssemblyName>
+    <RootNamespace>RedSheeps.Input</RootNamespace>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\RedSheeps.Input\Command.cs" Link="Command.cs" />
+  </ItemGroup>
 
   <ItemGroup>
     <Folder Include="Properties\" />
