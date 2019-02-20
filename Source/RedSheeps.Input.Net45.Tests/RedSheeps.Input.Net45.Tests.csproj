@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net45</TargetFramework>
+    <AssemblyName>RedSheeps.Input.Tests</AssemblyName>
+    <RootNamespace>RedSheeps.Input.Tests</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\RedSheeps.Input.Tests\CommandFixture.cs" Link="CommandFixture.cs" />
+    <Compile Include="..\RedSheeps.Input.Tests\CommandTFixture.cs" Link="CommandTFixture.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="xunit" Version="2.4.1" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.4.1">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RedSheeps.Input.Net45\RedSheeps.Input.Net45.csproj" />
+  </ItemGroup>
+</Project>

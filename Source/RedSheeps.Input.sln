@@ -7,6 +7,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RedSheeps.Input", "RedSheep
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedSheeps.Input.Tests", "RedSheeps.Input.Tests\RedSheeps.Input.Tests.csproj", "{F90CC2E3-C005-4667-BAF7-37228054FFBE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedSheeps.Input.Net45", "RedSheeps.Input.Net45\RedSheeps.Input.Net45.csproj", "{883F6850-9DAC-43AE-8DB1-064DB6C57006}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedSheeps.Input.Net45.Tests", "RedSheeps.Input.Net45.Tests\RedSheeps.Input.Net45.Tests.csproj", "{27573B79-A2C3-4981-AF36-9B3CFB92E622}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{F90CC2E3-C005-4667-BAF7-37228054FFBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F90CC2E3-C005-4667-BAF7-37228054FFBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F90CC2E3-C005-4667-BAF7-37228054FFBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{883F6850-9DAC-43AE-8DB1-064DB6C57006}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{883F6850-9DAC-43AE-8DB1-064DB6C57006}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{883F6850-9DAC-43AE-8DB1-064DB6C57006}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{883F6850-9DAC-43AE-8DB1-064DB6C57006}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27573B79-A2C3-4981-AF36-9B3CFB92E622}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27573B79-A2C3-4981-AF36-9B3CFB92E622}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27573B79-A2C3-4981-AF36-9B3CFB92E622}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27573B79-A2C3-4981-AF36-9B3CFB92E622}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
